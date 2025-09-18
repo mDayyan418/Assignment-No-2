@@ -1,0 +1,80 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+#parent{
+width: 100%;
+height: 1000px;
+background-color: burlywood;
+margin: auto;
+}
+#logo{
+width: 100%;
+height: 70px;
+background-color: antiquewhite;
+color: blue;
+font-size: 34px;
+padding-left: 22px;
+margin-bottom: 5px;
+margin-top: 5px;
+line-height: 70px;
+}
+#menu{
+width: 100%;
+height: 50px;
+background-color: antiquewhite;
+color: blue;
+font-size: 34px;
+text-align: center;
+line-height: 50px;
+margin-bottom: 5px;
+}
+#header{
+width: 100%;
+height: 140px;
+line-height: 140%;
+background-color: antiquewhite;
+color: blue;
+font-size: 34px;
+text-align: center;
+margin-top: 5px;
+}
+#child::after{
+clear: both;
+content:"";
+display: block;
+}
+#sidebar{
+width: 34%;
+height:610px;
+line-height: 610px;
+background-color: antiquewhite;
+color: blue;
+font-size: 34px;
+text-align: center;
+float: left;
+margin-top: 5px;
+text-align: 10px;
+}
+#body{
+width:65%;
+height: 610px;
+margin-top: 5px;
+background-color: antiquewhite;
+color: blue;
+font-size: 34px;
+text-align: center;
+line-height: 610px;
+float: right;
+}
+#footer{
+    margin-top: 5px;
+    background-color: antiquewhite;
+    color: blue;
+    font-size: 34px;
+    text-align: center;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+}
